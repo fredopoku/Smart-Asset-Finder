@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4f46e5"/>
+      <stop offset="100%" stop-color="#2563eb"/>
+    </linearGradient>
+    <clipPath id="c"><circle cx="100" cy="100" r="100"/></clipPath>
+  </defs>
+  <g clip-path="url(#c)">
+    <rect width="200" height="200" fill="url(#bg)"/>
+    <!-- Body/shoulders -->
+    <ellipse cx="100" cy="185" rx="62" ry="40" fill="rgba(255,255,255,0.18)"/>
+    <rect x="38" y="155" width="124" height="60" fill="rgba(255,255,255,0.14)" rx="10"/>
+    <!-- Neck -->
+    <rect x="88" y="118" width="24" height="22" fill="#f0d4bc"/>
+    <!-- Head -->
+    <ellipse cx="100" cy="96" rx="38" ry="42" fill="#f0d4bc"/>
+    <!-- Short hair -->
+    <ellipse cx="100" cy="62" rx="38" ry="20" fill="#2d1b00"/>
+    <rect x="62" y="62" width="76" height="16" fill="#2d1b00"/>
+    <!-- Ears -->
+    <ellipse cx="62" cy="96" rx="7" ry="9" fill="#e8c5a5"/>
+    <ellipse cx="138" cy="96" rx="7" ry="9" fill="#e8c5a5"/>
+    <!-- Eyes -->
+    <ellipse cx="85" cy="92" rx="7" ry="8" fill="white"/>
+    <ellipse cx="115" cy="92" rx="7" ry="8" fill="white"/>
+    <circle cx="87" cy="93" r="4" fill="#1e1b4b"/>
+    <circle cx="117" cy="93" r="4" fill="#1e1b4b"/>
+    <circle cx="88" cy="91" r="1.5" fill="white"/>
+    <circle cx="118" cy="91" r="1.5" fill="white"/>
+    <!-- Eyebrows -->
+    <path d="M78 83 Q85 79 92 83" stroke="#2d1b00" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+    <path d="M108 83 Q115 79 122 83" stroke="#2d1b00" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+    <!-- Nose -->
+    <path d="M97 102 Q100 110 103 102" stroke="#d4a990" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+    <!-- Smile -->
+    <path d="M86 114 Q100 124 114 114" stroke="#c8956e" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+    <!-- Collar/shirt top -->
+    <path d="M68 145 L88 130 L100 138 L112 130 L132 145 Z" fill="#4f46e5"/>
+  </g>
+</svg>

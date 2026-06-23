@@ -1,0 +1,14 @@
+Options -Indexes
+
+# Block direct access to PHP sub-files (they're loaded via include by admin/index.php)
+<FilesMatch "\.php$">
+    Require all denied
+</FilesMatch>
+
+# Only the main admin entry point and login page are directly accessible
+<Files "index.php">
+    Require all granted
+</Files>
+<Files "login.php">
+    Require all granted
+</Files>

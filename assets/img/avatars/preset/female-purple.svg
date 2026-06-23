@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#7c3aed"/>
+      <stop offset="100%" stop-color="#a855f7"/>
+    </linearGradient>
+    <clipPath id="c"><circle cx="100" cy="100" r="100"/></clipPath>
+  </defs>
+  <g clip-path="url(#c)">
+    <rect width="200" height="200" fill="url(#bg)"/>
+    <rect x="38" y="155" width="124" height="60" fill="rgba(255,255,255,0.14)" rx="10"/>
+    <rect x="88" y="118" width="24" height="22" fill="#f2c4a0"/>
+    <!-- Long hair back -->
+    <ellipse cx="100" cy="120" rx="46" ry="60" fill="#3d1a0a"/>
+    <!-- Head -->
+    <ellipse cx="100" cy="96" rx="38" ry="42" fill="#f2c4a0"/>
+    <!-- Long hair front strands -->
+    <rect x="60" y="60" width="18" height="80" rx="9" fill="#3d1a0a"/>
+    <rect x="122" y="60" width="18" height="80" rx="9" fill="#3d1a0a"/>
+    <!-- Top hair -->
+    <ellipse cx="100" cy="58" rx="40" ry="22" fill="#3d1a0a"/>
+    <!-- Ears -->
+    <ellipse cx="62" cy="96" rx="7" ry="9" fill="#e8b590"/>
+    <ellipse cx="138" cy="96" rx="7" ry="9" fill="#e8b590"/>
+    <!-- Eyes -->
+    <ellipse cx="85" cy="92" rx="7" ry="8" fill="white"/>
+    <ellipse cx="115" cy="92" rx="7" ry="8" fill="white"/>
+    <circle cx="87" cy="93" r="4" fill="#1e1b4b"/>
+    <circle cx="117" cy="93" r="4" fill="#1e1b4b"/>
+    <circle cx="88" cy="91" r="1.5" fill="white"/>
+    <circle cx="118" cy="91" r="1.5" fill="white"/>
+    <!-- Eyelashes -->
+    <path d="M78 85 Q85 80 92 85" stroke="#1a0a0a" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+    <path d="M108 85 Q115 80 122 85" stroke="#1a0a0a" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+    <!-- Nose -->
+    <path d="M97 103 Q100 110 103 103" stroke="#d4956e" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+    <!-- Lips -->
+    <path d="M87 115 Q100 122 113 115" stroke="#e05580" stroke-width="2" fill="none" stroke-linecap="round"/>
+    <path d="M87 115 Q100 110 113 115" stroke="#e05580" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+    <!-- Shirt -->
+    <path d="M65 148 L88 132 L100 140 L112 132 L135 148 Z" fill="#7c3aed"/>
+  </g>
+</svg>
