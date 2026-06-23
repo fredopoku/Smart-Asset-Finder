@@ -275,5 +275,4 @@ Smart-Asset-Finder/
 
 ## License
 
-Developed as an academic submission for a BSc Information Technology degree.
 All rights reserved by the author — **Frederick Opoku Afriyie**.
