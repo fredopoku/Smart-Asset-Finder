@@ -2,7 +2,7 @@
 
 A full-stack **Lost & Found platform** with AI-powered item matching, QR tagging, WhatsApp push notifications, GPS location tracking, and an admin broadcast system.
 
-> Built by **Frederick Opoku Afriyie** — BSc Information Technology
+> Built by **Frederick Opoku Afriyie**
 
 ---
 
