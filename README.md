@@ -6,6 +6,22 @@ A full-stack **Lost & Found platform** with AI-powered item matching, QR tagging
 
 ---
 
+## Screenshots
+
+| Homepage | Items (Map View) |
+|---|---|
+| ![Homepage](screenshots/homepage.png) | ![Items](screenshots/items.png) |
+
+| Report Lost Item | Item Detail |
+|---|---|
+| ![Report Lost](screenshots/report-lost.png) | ![Item View](screenshots/item-view.png) |
+
+| Admin Dashboard | Admin Claims (AI Score) |
+|---|---|
+| ![Admin Dashboard](screenshots/admin-dashboard.png) | ![Admin Claims](screenshots/admin-claims.png) |
+
+---
+
 ## Features
 
 ### Public Portal
